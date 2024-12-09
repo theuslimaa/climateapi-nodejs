@@ -1,0 +1,125 @@
+/* Styles the entire body, setting a background image and centering content both vertically and horizontally. */
+body {
+    background-image: url('rainingwall.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container that holds the page content. It has a semi-transparent background, a blur effect, padding, rounded corners, and a subtle shadow for depth. */
+
+.container {
+    background-color: rgba(33, 115, 209, 0.8);
+    backdrop-filter: blur(4px);
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* A flexible container that organizes the header content. It aligns elements horizontally with space between them and vertically centers them. */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* Groups the logo and title together in a row, ensuring proper alignment and spacing between them. */
+.logo-and-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.title {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Container for social media icons, displayed in a row with spacing between each icon. */
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Holds the search input and button, centering them and managing spacing. Positioned relative to allow control over the layering (z-index). */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Container for the main page content. It organizes the layout into two sections (map and weather info) using a flexible layout. */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+/* Represents a map container with a fixed size, rounded corners, and disables user interaction (pointer events). */
+#map {
+    width: 800px;
+    height: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    pointer-events: none; 
+}
+
+/* A box displaying weather information with a blue background, rounded corners, and padding for spacing. */
+#weather-info {
+    background-color: #007bff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    color: white;
+    text-align: left;
+}
+
