@@ -1,5 +1,46 @@
-# SkyPulse - Developed with basic HTML, CSS, JS and Node.js!!
+# WeatherMap - Weather and Location Information App
 
-A simple page developed with the purpose to explore the frontend languages, HTML CSS and JavaScript. Utilizing two external APIs that i searched across the internet, the Google Maps API and WeatherAPI, i managed to make the climate data of whatever city to be showed on the website with climate data for the next 3 days as well.
+**WeatherMap** is a web application that combines the power of the **Google Maps API** and **WeatherAPI** to provide weather information based on user-selected locations. Built with a Node.js backend and a modern frontend using HTML, CSS, and JavaScript, this app is a seamless solution for exploring locations and their weather conditions.
 
-To run the code, open the server.js file and, in the terminal, type "node server.js"
+---
+
+## 📋 Features
+- **Interactive Map**:
+  - Select any location on the map using **Google Maps API**.
+- **Weather Data**:
+  - Display current weather details such as temperature, humidity, and conditions using **WeatherAPI**.
+- **Responsive UI**:
+  - A clean, responsive frontend for both desktop and mobile devices.
+- **Real-time Updates**:
+  - Instant updates as users interact with the map.
+
+---
+
+## 🚀 Technologies Used
+
+### Backend:
+- **Node.js**: Handles API requests and integrates Google Maps and WeatherAPI.
+
+### Frontend:
+- **HTML, CSS, JavaScript**: Provides a responsive and interactive user interface.
+- **Bootstrap** (Optional): For additional styling and responsiveness.
+
+### APIs:
+- **Google Maps API**: Enables map integration and location selection.
+- **WeatherAPI**: Provides real-time weather data.
+
+---
+
+## 📦 Requirements
+
+1. **Node.js** (version 14 or higher).
+2. **npm** or **yarn** for dependency management.
+3. API keys for:
+   - **Google Maps API**
+   - **WeatherAPI**
+
+---
+
+## 🤝 Contributing
+
+-- Contributions are welcome! Feel free to open a Pull Request or report issues in Issues.
