@@ -1,6 +1,6 @@
-# WeatherMap - Weather and Location Information App
+# SkyPulse - Weather and Location Information App
 
-**WeatherMap** is a web application that combines the power of the **Google Maps API** and **WeatherAPI** to provide weather information based on user-selected locations. Built with a Node.js backend and a modern frontend using HTML, CSS, and JavaScript, this app is a seamless solution for exploring locations and their weather conditions.
+**SkyPulse** is a web application that combines the power of the **Google Maps API** and **WeatherAPI** to provide weather information based on user-selected locations. Built with a Node.js backend and a modern frontend using HTML, CSS, and JavaScript, this app is a seamless solution for exploring locations and their weather conditions.
 
 ---
 
