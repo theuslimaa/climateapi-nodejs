@@ -34,7 +34,7 @@
 ## 📦 Requirements
 
 1. **Node.js** (version 14 or higher).
-2. **npm** or **yarn** for dependency management.
+2. **npm** for dependency management.
 3. API keys for:
    - **Google Maps API**
    - **WeatherAPI**
