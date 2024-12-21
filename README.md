@@ -5,12 +5,10 @@
 ---
 
 ## 📋 Features
-- **Interactive Map**:
-  - Select any location on the map using **Google Maps API**.
+- **Map**:
+  - Display your city in the map utilizing the **Google Maps API**.
 - **Weather Data**:
   - Display current weather details such as temperature, humidity, and conditions using **WeatherAPI**.
-- **Responsive UI**:
-  - A clean, responsive frontend for both desktop and mobile devices.
 - **Real-time Updates**:
   - Instant updates as users interact with the map.
 
@@ -23,10 +21,9 @@
 
 ### Frontend:
 - **HTML, CSS, JavaScript**: Provides a responsive and interactive user interface.
-- **Bootstrap** (Optional): For additional styling and responsiveness.
 
 ### APIs:
-- **Google Maps API**: Enables map integration and location selection.
+- **Google Maps API**: Enables map integration.
 - **WeatherAPI**: Provides real-time weather data.
 
 ---
